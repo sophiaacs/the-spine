@@ -1,0 +1,104 @@
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Bookshelf')">bookshelf</button>
+  <button class="tablinks" onclick="openTab(event, 'Book Recs')">book recs</button>
+  <button class="tablinks" onclick="openTab(event, 'Login')">login</button>
+</div>
+
+
+<div id="Bookshelf" class="tabcontent">
+  <head>
+    <meta charset="UTF-8">
+    <title>Book Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<h1 style="color:367C4F;">Your Bookshelf ♡</h1>⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+<section id="add-book-section">
+    <h2>Add A Book</h2>
+    <form id="add-book-form">
+        <label for="Title">Title:</label>
+        <input type="text" id="title" required>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" required>
+
+        <label for="status">Status:</label>
+        <select id="status">
+            <option value="tbr">tbr</option>
+            <option value="current">current</option>
+            <option value="read">read</option>
+        </select>
+
+	<label for="rating">Rating:</label>
+        <select id="rating">
+            <option value="★☆☆☆☆">★☆☆☆☆</option>
+            <option value="★★☆☆☆">★★☆☆☆</option>
+            <option value="★★★☆☆">★★★☆☆</option>
+	<option value="★★★★☆">★★★★☆</option>
+	<option value="★★★★★">★★★★★</option>
+        </select>
+
+	<label for="Thoughts">Thoughts:</label>
+        <input type="text" id="thoughts">
+
+        <button type="submit">add</button>
+
+
+    </form>
+</section>
+
+<style>
+body {
+  background-image: url('finalbackground2.jpg');
+}
+</style>
+
+<h2 style="color:367C4F;">Shelf</h2>⠀⠀
+<div id="my-books"></div>
+
+</div>
+⠀⠀
+
+
+
+<div id="Book Recs" class="tabcontent">
+<h1 style="color:367C4F;">Book Recommendations ♡</h1>
+
+<img src="/Users/sophialim/Desktop/bookrecs.png" alt="bookrecs" width="550" height="333">
+
+
+
+<p>click <a href="https://www.canva.com/design/DAGUoBLsmcM/cZxbuA1BT7a6car_8xZjfg/edit?utm_content=DAGUoBLsmcM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">here</a>!</p>
+
+
+</div>
+   
+
+<div id="Login" class="tabcontent">
+<h1 style="color:367C4F;">Login Page ♡</h1>
+
+<section id="login-section">
+    <h2>Login</h2>
+    <form id="login-form">
+        <label for="username"> Username:</label>
+        <input type="text" placeholder: "enter password" id="username" required>
+
+        <label for="password">Password:</label>
+        <input type="text" placeholder: "enter password" id="password" required>
+
+        
+        </select>
+
+        <button type="submit">login</button>
+
+<p>Don't have an account?  Click <a href="https://docs.google.com/document/d/12lxCUSA5DBgVby9SFl3_2udqd_TjswblVp-fLMFF6hA/edit?tab=t.0">here</a> </p>
+
+    </form>
+</section>
+
+
+</div>
+

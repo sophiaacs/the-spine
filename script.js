@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     document.getElementById('add-book-form').addEventListener('submit', function(event) {
         event.preventDefault();
-
+//for user inputs
         const title = document.getElementById('title').value;
         const author = document.getElementById('author').value;
         const status = document.getElementById('status').value;
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         newBook.textContent = `title: ${title}, author: ${author}, status: ${status}, rating: ${rating}, thoughts: ${thoughts}`;
 
         document.getElementById('my-books').appendChild(newBook);
-
+//the user input prints
         document.getElementById('title').value = '';
         document.getElementById('author').value = '';
         document.getElementById('status').value = 'read';
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	document.getElementById('thoughts').value = '';
     });
 });
-
+//tab
 function openTab(evt, Tab) {
   
   var i, tabcontent, tablinks;

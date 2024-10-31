@@ -2,12 +2,7 @@ body {
     font-family: Times New Roman;
 }
 
-header {
-    background-color: #f4f4f4;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
+/*for button shape and color*/
 
 button {
     padding: 10px 20px;
@@ -43,6 +38,7 @@ label {
     font-weight: bold;
 }
 
+/*for user input*/
 input[type="text"], select {
     padding: 8px;
     margin-bottom: 10px;
@@ -54,7 +50,7 @@ input[type="text"], select {
     text-align: center;
 }
 
-
+/*input format*/
 .book-entry {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -85,6 +81,7 @@ input[type="text"], select {
   border-top: none;
 }
 
+/*input format*/
 #login-section {
     background-color: #fff;
     padding: 20px;
